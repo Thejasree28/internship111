@@ -1,0 +1,344 @@
+
+.container:
+ -webkit-border-radius:;
+ -moz-border-radius:
+ -ms-border-radius:;
+ -o-border-radius:;
+{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content:space-between;
+}
+.container .logo img{
+    width: 110px;
+    height:80px;
+    display:flex;
+    flex-direction: column;
+    justify-content: left;
+}
+h5 {
+    margin: 0;
+    display:flex;
+    justify-content: right;
+}
+
+.box h1{
+    text-align: center;
+}
+.box2{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    align-items:center;
+  
+}
+.box2 input{
+    border-radius:5px;
+    border-width:1px;
+    padding: 8px 12px;
+}
+nav{
+    width: 99.3%;
+    background-color: rgb(162, 188, 185);
+    padding:5px;
+    display:flex;
+    align-items:center;
+    
+}
+.main{
+    border: none;
+    background-color:rgb(162, 188, 185);
+    color:white;
+}
+    
+ul{
+    width:60%;
+    list-style: none;
+    display:flex;
+    justify-content: center;
+}
+ul li a{
+    text-decoration: none;
+    margin:10px;
+    padding:5px;
+    color:rgb(71, 68, 68);
+}
+.search button{
+    width:70px;
+    margin:2px;
+    background-color: rgb(240, 141, 11);
+    color:black;
+    border:none;
+    border-radius:4px;
+    padding:4px;
+}
+.btn button
+{
+    width:90px;
+    margin:8px;
+    background-color: rgb(215, 215, 155);
+    color:black;
+    border:none;
+    border-radius:4px;
+    padding:4px;
+}
+
+.container1{
+    width: 230;
+    height: 1000px;
+    background-image: url("bikelogo.jpeg");
+    background-size:cover;
+    display:grid;
+    place-items:centre;
+
+    
+
+
+
+}
+
+
+
+.box{
+    width: 40%;
+    padding: 10px;
+    height: 200px;
+    background-color:rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+    margin-left: 350px;
+    margin-top: 102;
+
+}
+.box h1{
+    text-align: centre;
+}
+
+.box p{
+    text-align: justify;
+}
+
+.box h3{
+    background-color:rgb(173, 198, 206);
+    gap: 10px;
+}
+.box1{
+    width: 20%;
+    padding: 5px;
+    background-color: rgba( 29, 121, 232, 0.6 );
+    color: white;
+    margin-left: 0px;
+}
+.box1 h3{
+    text-align: center;
+    
+}
+.form{
+    width:20%;
+    color:white;
+    background-color: black;
+    border:none;
+    border-radius: 10px;
+    margin-right: 350px;
+    margin-bottom:200px;
+    margin-top:90px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+    
+.form h3{
+    text-align: center;  
+}
+.poem{
+    background-color: white;
+    border:solid;
+    border-color:black;
+    color:black;
+    width: 650px;
+    height: 100px;
+    border-width: 5px;
+    
+}
+.container1 .poem{
+    display:flex;
+    gap:10px;
+}
+.response2{
+    background-image: url("gray.jpg");
+    width:100%;
+    height: 1000px;
+    background-size: cover;
+}
+.box3 h3{
+    margin-left: 100px;
+    display: flex;
+}
+.g1{
+    width: 950px;
+    display:flex;
+    margin-top: -28px;
+    margin-left: 250px;
+}
+.gallery img{
+    width: 320px;
+    height:300px ;
+}
+.gallery{
+    background-color:lavenderblush;
+    width:21%;
+    margin: 2%;
+    margin-left: 100px;
+    float: left;
+}
+.gallery .btn1 button{ 
+    width:50px;
+    margin-top: -50px;
+    background-color: rgb(0, 188, 191);
+    color:rgb(255, 245, 246);
+    float: right;
+}
+.gallery .text{
+    text-align: left;
+}
+.text h2{
+    color: rgb(8, 91, 255);
+    text-align: left;
+    display: inline;
+}
+.text p{
+    text-align: left;
+    
+}
+.hot{
+    display:flex;
+    margin-top: 400px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+.un{
+    display:flex;
+    margin-top:-40px;
+    margin-left: 250px;
+    width: 1000px;
+    margin-right: -100px;
+}
+.gallery1{
+    width: 40%;
+    position: absolute; 
+    margin-top:100px;
+    margin-left:5%;
+    display: inline-block;
+ }
+ .gal{
+     position: relative;
+     width: 40%;
+     color:whitesmoke;
+ }
+ .gal hr {
+     width: 70%;
+     margin-right:300px;
+     margin:2%;
+     
+ }
+ .gal h5{
+     margin-right:200px;
+     margin-top:150px;
+     margin-left:200px;
+ }
+ .gal{
+     margin-left:70px;
+ }
+ .gallery2{
+ width: 40%;
+ margin: 5%;
+ float: left;
+     /* margin-top:100px;
+     margin-left:590px;
+     margin-top:-165px; */
+     
+  }
+  .gall{
+ 
+     width: 50%;
+     color:whitesmoke;margin-left:590px;
+     margin-top:-150px;
+ 
+ }
+ .gall hr {
+     width: 70%;
+     margin-right:300px;
+     margin:2%;
+ }
+ .ox{
+     background-color: whitesmoke;
+     width:95%;
+     margin:2%;
+     height: 40px;
+     margin-top:200px;
+ }
+
+footer {
+    background-color:rgb(194, 183, 183);
+    padding: 18px;
+}
+.latest-blogs {
+    margin-bottom: 16px;
+}
+
+.footer-content h4 {
+    font-size: 15px;
+    color: #333;
+    margin-bottom: 10px;
+}
+.latest-bikes a, 
+.footer-content a {
+    color: #6e6d6d;
+    text-decoration: none;
+}
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.footer-content div {
+    flex: 1;
+}
+.footer-content ul {
+    display:block;
+    list-style: none;
+    padding: 0;
+}
+.footer-content li {
+    margin-bottom: 5px;
+}
+.social-icons {
+    display: flex;
+    gap: 9px;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+}
+.newsletter form {
+    display: flex;
+}
+.newsletter input[type="email"] {
+    padding: 5px;
+    border: 1px solid #000000;
+    border-radius: 3px 0 0 3px;
+    flex: 1;
+}
+.newsletter button {
+    padding: 5px 10px;
+    background-color: #3a70dc;
+    color: #fff;
+    border: none;
+    border-radius: 0 3px 3px 0;
+    cursor: pointer;
+}
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color:#6e6d6d;}
